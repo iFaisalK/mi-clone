@@ -1,0 +1,52 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+  background-color: rgb(27, 27, 27);
+  padding: 4.5vmax 4.5vmax 3vmax;
+}
+
+.footer > div{
+    margin:1vmax;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer > div > a {
+  text-decoration: none;
+  margin: 0.6vmax 0;
+  color: rgb(160, 160, 160);
+  font-family: "inter";
+}
+
+.footer p {
+  font-weight: 500;
+  color: rgb(194, 194, 194);
+  font-size: 0.9vmax;
+}
+
+.footer>div>a:hover{
+    color: white;
+}
+
+.footer button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  transition: all 0.5s;
+  font-family: "inter";
+}
+
+.footer button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.footerCredit{
+    color: rgb(196, 196, 196);
+    padding: 3vmax 5vmax 3vmax 4vmax;
+    background-color: rgb(27, 27, 27);
+    font-family: "inter";
+    border-top: 1px solid rgb(82, 82, 82);
+}

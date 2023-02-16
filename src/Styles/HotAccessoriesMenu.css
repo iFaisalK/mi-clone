@@ -1,0 +1,21 @@
+.hotAccessoriesMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotAccessoriesLink {
+  transition: all 0.2s;
+  margin: 0 1vmax 2vmax 2vmax;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(75, 75, 75);
+  font-size: 1.05vmax;
+}
+
+.hotAccessoriesLink:hover {
+  font-weight: 400;
+  color: orangered;
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+}

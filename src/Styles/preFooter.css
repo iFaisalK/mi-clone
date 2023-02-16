@@ -1,0 +1,107 @@
+.preFooter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1vmax;
+}
+
+.preFooter div {
+  cursor: pointer;
+  margin: 6vmax 6vmax 2vmax 6vmax;
+  display: flex;
+  width: 100%;
+}
+
+.preFooter svg {
+  fill: rgb(167, 166, 166);
+  scale: 1.2;
+}
+
+.preFooter p {
+  padding-left: 2vmax;
+  color: rgb(100, 100, 100);
+}
+
+.preFooter > div:hover svg {
+  fill: black;
+}
+
+.preFooter > div:hover p {
+  color: black;
+}
+
+/* preFooter2 */
+
+.preFooter2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.preFooter2 div {
+  padding: 3vmax;
+}
+
+.preFooter2 > div:nth-child(1) p {
+  font-size: 1.5vmax;
+  font-weight: 500;
+  color: rgb(110, 110, 110);
+}
+.preFooter2 > div:nth-child(1) span {
+  font-size: 1.01vmax;
+}
+
+.preFooter2 svg {
+  fill: rgb(110, 110, 110);
+  width: 2vmax;
+  margin: 1vmax;
+  transform: scale(0.8);
+}
+
+.email > button {
+  border: none;
+  outline: none;
+  /* border-radius:2vmax; */
+  background-color: orangered;
+  color: white;
+  scale: 1.2;
+  margin: 1vmax 0.5vmax 0 0;
+  transition: all 0.2s;
+}
+
+.email > button:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 2px 2px 5px black;
+}
+
+.email input {
+  padding: 0.5vmax 1vmax;
+  background-color: rgb(255, 255, 255);
+  font-size: 1vmax;
+  width: 20.4vmax;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.preFooter2 > div:nth-child(3) {
+  font-size: 1.2vmax;
+  margin: 3vmax;
+  width: 82%;
+  background-color: rgba(255, 68, 0, 0.315);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
+  border-radius: 1vmax;
+  text-align: center;
+}
+
+.socialMedia {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.socialMedia svg {
+  transition: all 0.2s;
+}
+
+.socialMedia svg:hover {
+  fill: black;
+  cursor: pointer;
+  scale: 1.1;
+}

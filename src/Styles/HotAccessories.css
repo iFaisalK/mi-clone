@@ -1,0 +1,21 @@
+.HotAccessories{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+.productCover img{
+    cursor:pointer;
+    transition: all 0.2s;
+    width: 25vw;
+}
+
+.productCover img:hover{
+    box-shadow: 5px 5px 16px rgb(75, 75, 75);
+    scale: 1.007;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
